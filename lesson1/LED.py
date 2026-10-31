@@ -1,30 +1,30 @@
 """LEDを点滅させるコード"""
 
-import RPi.GPIO as GPIO
 import time
+import RPi.GPIO as GPIO
 
-ledPin = 11
+LED_PIN = 17
 
 
 def setup():
-    GPIO.setmode(GPIO.BOARD)
-    GPIO.setup(ledPin, GPIO.OUT)
-    GPIO.output(ledPin, GPIO.LOW)
-    print("using pin%d" % ledPin)
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(LED_PIN, GPIO.OUT)
+    GPIO.output(LED_PIN, GPIO.LOW)
+    print("using pin%d" % LED_PIN)
 
 
 def loop():
     while True:
-        GPIO.output(ledPin, GPIO.HIGH)
+        GPIO.output(LED_PIN, GPIO.HIGH)
         print("...led on")
         time.sleep(1)
-        GPIO.output(ledPin, GPIO.LOW)
+        GPIO.output(LED_PIN, GPIO.LOW)
         print("led off...")
         time.sleep(1)
 
 
 def destroy():
-    GPIO.output(ledPin, GPIO.LOW)
+    GPIO.output(LED_PIN, GPIO.LOW)
     GPIO.cleanup()
 
 
