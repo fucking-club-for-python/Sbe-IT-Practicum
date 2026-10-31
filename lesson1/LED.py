@@ -1,7 +1,7 @@
 """LEDを点滅させるコード"""
 
-import RPi.GPIO as GPIO
 import time
+import RPi.GPIO as GPIO
 
 ledPin = 11
 
