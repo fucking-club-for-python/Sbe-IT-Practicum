@@ -3,6 +3,7 @@
 import time
 import RPi.GPIO as GPIO
 
+# GPIOxxのxx
 LED_PIN = 17
 
 
