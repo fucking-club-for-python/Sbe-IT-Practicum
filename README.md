@@ -25,14 +25,13 @@
 授業で使用する標準的な実装です。
 - `lesson{N}/`直下に配置します。
 - 記述量が多くなりやすく、コードも煩雑になりがちです。
-- Raspberry Pi 5では`RPi.GPIO`が使用できません。時代遅れです。
+- ~~Raspberry Pi 5では`RPi.GPIO`が使用できません。時代遅れです。~~
 ### gpiozero版
 `RPi.GPIO`版と同等の処理を、`gpiozero`を使用して実装したものです。
 - `lesson{N}/gpiozero-ver/`に配置します。
 - Raspberry Pi公式が推奨するGPIO操作ライブラリです。
-- LEDやボタンなどのデバイスを"モノ"として扱えます。
+- LEDやボタンなどのデバイスを"モノ"として扱えます。(OOP)
 - Pythonらしく簡潔に記述できます。
-- Raspberry Pi 5にも対応しています。
 ## 補足
 基本的には授業で扱った`RPi.GPIO`版を残しつつ、より簡潔で扱いやすい`gpiozero`版も併せて掲載しています。
 
