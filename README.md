@@ -1,4 +1,4 @@
-# Sbe-IT-Practicum
+# sbe-it-practicum
 ## 概要
 情報実習の授業で作成したPythonコードおよび回路図を管理・共有するためのリポジトリです。
 
