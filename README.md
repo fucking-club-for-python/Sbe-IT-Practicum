@@ -25,7 +25,7 @@
 授業で使用する標準的な実装です。
 - `lesson{N}/`直下に配置します。
 - 記述量が多くなりやすく、コードも煩雑になりがちです。
-- ~~Raspberry Pi 5では`RPi.GPIO`が使用できません。時代遅れです。~~
+- ~~Raspberry Pi 5では`RPi.GPIO`が使用できません。~~
 ### gpiozero版
 `RPi.GPIO`版と同等の処理を、`gpiozero`を使用して実装したものです。
 - `lesson{N}/gpiozero-ver/`に配置します。
