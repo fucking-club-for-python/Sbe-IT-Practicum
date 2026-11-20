@@ -1,4 +1,4 @@
-"""ボタンを押したときにLEDを1秒間隔で3回点滅"""
+"""ボタンが押されている間、LEDを1秒間隔で3回点滅する処理を繰り返す。"""
 
 import RPi.GPIO as GPIO
 import time

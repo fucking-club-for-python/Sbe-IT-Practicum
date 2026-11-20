@@ -1,4 +1,4 @@
-"""流れるLED(gpiozero)"""
+"""3つのLEDを順方向と逆方向へ順番に点灯して消灯し、光を流す(gpiozero)。"""
 
 import time
 from gpiozero import LED

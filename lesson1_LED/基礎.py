@@ -1,4 +1,4 @@
-"""LEDを点滅させるコード"""
+"""GPIO17に接続したLEDを1秒間隔で点滅させ、Ctrl+Cで終了する。"""
 
 import time
 import RPi.GPIO as GPIO

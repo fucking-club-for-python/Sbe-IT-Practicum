@@ -1,4 +1,4 @@
-"""LEDを点滅させるコード(gpiozero)"""
+"""GPIO17のLEDを1秒間隔で点滅させ、Ctrl+Cで終了する(gpiozero)。"""
 
 import time
 from gpiozero import LED

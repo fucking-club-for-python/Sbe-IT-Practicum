@@ -1,14 +1,14 @@
-"""ボタンを押したときに、LEDを順方向に点灯 -> 順方向に消灯"""
+"""ボタンを押している間、8個のLEDを順番に点灯して順番に消灯する。"""
 
 import RPi.GPIO as GPIO
 import time
 
 # ピン番号(GPIO x)のリストの宣言
-SPIMOSI = 10
-SPIMISO = 9
-SPISCLK = 11
-EEDATA = 0
-LED_PINS = [17, 27, 22, SPIMOSI, SPIMISO, SPISCLK, EEDATA, 5]
+# SPIMOSI = 10
+# SPIMISO = 9
+# SPISCLK = 11
+# EEDATA = 0
+LED_PINS = [17, 27, 22, 10, 9, 11, 0, 5]
 
 # ボタンのピン番号
 BTN_PIN = 26

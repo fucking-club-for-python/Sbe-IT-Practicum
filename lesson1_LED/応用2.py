@@ -1,4 +1,4 @@
-"""流れるLED"""
+"""3つのLEDを順方向と逆方向へ順番に点灯して消灯し、光を流す。"""
 
 import time
 import RPi.GPIO as GPIO

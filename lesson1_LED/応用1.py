@@ -1,4 +1,4 @@
-"""3つのLEDを、順番に点灯・消灯させるコード"""
+"""3つのLEDを順番に点灯し、逆順に消灯する処理を繰り返す。"""
 
 import time
 import RPi.GPIO as GPIO
